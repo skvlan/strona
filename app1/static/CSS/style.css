@@ -1,0 +1,1116 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+/* Container */
+.container{
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+
+/* Intro */
+.intro {
+    width: 331px;
+    height: 800px;
+    
+
+    background: url("../images/tire.svg") center no-repeat;
+    display: flex;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+}
+
+.intro_tittle {
+    width: 1160px;
+    font-size: 85px;
+    font-family: 'MATROSKA';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 7.65px;
+
+    margin-top: 150px;
+    margin-left: 140px;
+}
+
+.intro_tittle2 {
+    width: 760px;
+    font-size: 64px;
+    font-family: 'MATROSKA';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 4.48px;
+
+    margin-top: 7px;
+    margin-left: 140px;
+    flex-shrink: 0;
+
+}
+
+.tittle2_arrow {
+    display: flex;
+    
+}
+
+.intro_tittle2, .arrow {
+    display: inline-block;
+}
+
+.arrow {
+    margin-left: 39px;
+}
+
+.intro_title3 {
+    width: 330px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 109%;
+    font-style: normal;
+
+    margin-left: 140px;
+    margin-top: 80px;
+    flex-shrink: 0;
+}
+
+.btn {
+    width: 235px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+    margin-left: 140px;
+    margin-top: -180px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.mechanik {
+    width: 900px;
+    height: 356px;
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: 30px;
+    
+}
+
+.title3_mechanik {
+    display: flex;
+}
+
+.intro_title3, .mechanik {
+    display: inline-block;
+}
+
+/* HEADER */
+.header {
+    padding-top: 30px;
+    margin-right: 140px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 140px;
+    color: #000000;
+}
+
+
+/* Navigation */
+.nav {
+   font-size: 16px;
+   text-transform: capitalize; 
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 40px;
+    color: #000000;
+    text-decoration: none;
+
+    position: relative;
+
+    transition: color 0.2s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1.5px;
+
+    background-color: #68AAE8;
+    opacity: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+
+    transition: color 0.2s linear;
+}
+
+.nav__link:hover {
+    color: #68AAE8;
+}
+
+.nav__link:hover:after {
+    opacity: 1;
+}
+
+
+/* CONTAINER_2 */
+
+
+.container_2 {
+    height: 1027px;
+    width: 1000px;
+
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.services {
+    font-size: 40px;
+    font-family: 'MATROSKA';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+
+    text-align: center;
+}
+
+
+/* KARTKI */
+
+.kartki1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 76px;
+}
+
+.kartka_1 {
+    max-width: 300px;
+    height: 418px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    border-radius: 20px;
+}
+
+.img_kartka1 {
+    align-items: center;
+}
+
+.kartka_1_text {
+    width: 266px;
+
+    height: 57px;
+    flex-shrink: 0;
+
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.kartka_1_text2 {
+    width: 261px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contactus_1 {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 38px;
+}
+
+.kartka_2 {
+    max-width: 300px;
+    height: 418px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    border-radius: 20px;
+
+}
+
+.img_kartka2 {
+    align-items: center;
+}
+
+.kartka_2_text {
+    width: 266px;
+
+    height: 57px;
+    flex-shrink: 0;
+
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.kartka_2_text2 {
+    width: 261px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contactus_2 {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 38px;
+}
+
+.kartka_3 {
+    max-width: 300px;
+    height: 418px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    border-radius: 20px;
+
+}
+
+.img_kartka3 {
+    align-items: center;
+}
+
+.kartka_3_text {
+    width: 266px;
+
+    height: 57px;
+    flex-shrink: 0;
+
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    margin-left: 15px;
+    align-items: center;
+}
+
+.kartka_3_text2 {
+    width: 261px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contactus_3 {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 55px;
+}
+
+.kartki2 {
+    display: inline-block;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.kartka_4 {
+    max-width: 300px;
+    height: 418px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    margin-left: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.img_kartka4 {
+    align-items: center;
+}
+
+.kartka_4_text {
+    width: 266px;
+
+    height: 57px;
+    flex-shrink: 0;
+
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.kartka_4_text2 {
+    width: 261px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contactus_4 {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 38px;
+}
+
+.kartka_5 {
+    max-width: 300px;
+    height: 418px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    margin-left: 46px;
+    margin-top: 20px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.img_kartka5 {
+    align-items: center;
+}
+
+.kartka_5_text {
+    width: 266px;
+
+    height: 57px;
+    flex-shrink: 0;
+
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.kartka_5_text2 {
+    width: 261px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.contactus_5 {
+    width: 260px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 38px;
+}
+
+.tire2 {
+    width: 227px;
+    height: 551px;
+    flex-shrink: 0;
+    margin-left: 650px;
+    margin-top: -180px;
+}
+
+
+/* CONTAINER 3 */
+
+.container_3 {
+    height: 295px;
+    width: 1160px;
+
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.reviews {
+    font-size: 40px;
+    font-family: 'MATROSKA';
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+
+    margin-top: -300px;
+    text-align: center;
+}
+
+.reviews_kartki {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+
+.reviews_kartki1 {
+    width: 360px;
+    height: 195px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    
+    
+    border-radius: 20px;
+    
+}
+
+.face1 {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.name1 {
+    color: #1E1E1E;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+.stars {
+    width: 80.182px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+
+.rev_tekst {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.reviews_kartki2 {
+    width: 360px;
+    height: 195px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    border-radius: 20px;
+}
+
+.face2 {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.name2 {
+    color: #1E1E1E;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+.stars2 {
+    width: 80.182px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+
+.rev_tekst2 {
+    max-width: 329px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.reviews_kartki3 {
+    width: 360px;
+    height: 195px;
+    flex-shrink: 0;
+    
+    border: 2px solid #68AAE8;
+    border-radius: 20px;
+}
+
+.face3 {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.name3 {
+    color: #1E1E1E;
+
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-left: 100px;
+    margin-top: -55px;
+}
+
+.stars3 {
+    width: 80.182px;
+    height: 14px;
+    flex-shrink: 0;
+    margin-left: 100px;
+    margin-top: 5px;
+
+}
+
+.rev_tekst3 {
+    max-width: 329px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 108%;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+/* FOOTER */
+
+
+.footer {
+    width: 1161px;
+    height: 196px;
+
+    flex-shrink: 0;
+    margin: 0 auto;
+}
+
+.line {
+    width: 1161px;
+    height: 2px;
+    align-items: center;
+    flex-shrink: 0;
+    margin-top: 100px;
+}
+
+.footer_logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+    color: #000000;
+}
+
+/* NAVIGATION FOOTER */
+
+.nav1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: -155px; 
+    margin-left: 117px;
+ }
+ 
+ .nav__link1 {
+     vertical-align: top;
+     margin: 0 40px;
+     color: #000000;
+     text-decoration: none;
+     margin-left: 217px;
+     margin-top: 30px;
+     position: relative;
+ 
+     transition: color 0.2s linear;
+ }
+ 
+ .nav__link1:after {
+     content: "";
+     width: 100%;
+     height: 1.5px;
+     background-color: #68AAE8;
+     opacity: 0;
+     top: 100%;
+     left: 0;
+     z-index: 1;
+ 
+     transition: color 0.2s linear;
+ }
+ 
+ .nav__link1:hover {
+     color: #68AAE8;
+ }
+ 
+ .nav__link1:hover:after {
+     opacity: 1;
+ }
+
+ .location {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+ }
+
+ .ic_tekst_1 {
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+.icon1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+ .phone {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+ }
+
+.ic_tekst_2 {
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+ .icon2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+ }
+
+ .mail {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+ }
+
+.ic_tekst_3 {
+    margin-left: 15px;
+    margin-top: -2px;
+}
+
+ .icon3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+ }
+
+ .other_icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-left: 650px;
+    margin-top: -155px; 
+ }
+
+ .contactus_6 {
+    width: 210px;
+    height: 55px;
+    display: flex;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: -100px;
+}
+
+
+/* CONTACT US WINDOW OPEN  */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+.modal:target {
+    opacity: 1;
+    display: flex;
+}
+
+.modal_area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.modal_main {
+    position: relative;
+    width: 717px;
+    height: 535px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin: auto;
+    color: #000000;
+    border-radius: 20px;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.modal_tire {
+    width: 229px;
+    height: 535px;
+    flex-shrink: 0;
+    margin-top: -85px;
+    margin-left: -500px;
+}
+
+.modal_input1 {
+    color: #D2D2D2;
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+
+    border-radius: 30px;
+    border: 1px solid #68AAE8;
+    z-index: 1;
+    
+
+    display: flex;
+    width: 364px;
+    height: 60px;
+    padding: 16px 40px;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: -440px;
+}
+    
+.modal_input2 {
+    color: #D2D2D2;
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+
+    border-radius: 30px;
+    border: 1px solid #68AAE8;
+    z-index: 1;
+    
+
+    display: flex;
+    width: 364px;
+    height: 60px;
+    padding: 16px 40px;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+   
+.modal_input3 {
+    color: #D2D2D2;
+
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    text-transform: capitalize;
+
+    border-radius: 30px;
+    border: 1px solid #68AAE8;
+    z-index: 1;
+    
+
+    display: flex;
+    width: 364px;
+    height: 60px;
+    padding: 16px 40px;
+    gap: 10px;
+    flex-shrink: 0;
+    margin-left: 150px;
+    margin-top: 30px;
+}
+   
+.modal_btn {
+    display: flex;
+    width: 364px;
+    height: 60px;
+    vertical-align: top;
+    padding: 16px 40px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68AAE8;
+
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 60px;
+    
+}
+
+
+.modal2 {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: none;
+}
+
+.modal2:target {
+    opacity: 1;
+    display: flex;
+}
+
+.modal_area2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.modal_main2 {
+    position: relative;
+    width: 717px;
+    height: 535px;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin: auto;
+    color: #000000;
+    border-radius: 20px;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.modal2_text {
+    margin-top: -180px;
+
+}
+
+.modal_tire2_1 {
+    width: 229px;
+    height: 535px;
+    flex-shrink: 0;
+    margin-top: -190px;
+    transform: rotate(90deg);
+}
+
+.modal_tire2_2 {
+    width: 164px;
+    height: 382px;
+    flex-shrink: 0;
+    margin-top: -85px;
+    transform: rotate(90deg);
+
+}

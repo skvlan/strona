@@ -1,0 +1,144 @@
+{% extends "main/base.html" %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static "CSS/style.css" %}">
+    <link rel="stylesheet" href="{% static "Montserrat/static/Montserrat-Medium.ttf" %}">
+    <link rel="stylesheet" href="{% static "Montserrat/static/Montserrat-Regular.ttf" %}">
+    <link rel="stylesheet" href="{% static "Montserrat/static/Montserrat-SemiBold.ttf" %}">
+    <link rel="stylesheet" href="{% static "MATROSKA/Matroska-RppG6.ttf" %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARSERVIS FIX</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo"><img src="{% static "images/logo_2.svg" %}" alt="logo"></div>
+
+                <nav>
+                    <a class="nav__link" href="{% url "index" %}">Home</a>
+                    <a class="nav__link" href="#services_nav">Services</a> 
+                    <a class="nav__link" href="#reviews_nav">Reviews</a>
+                    <a class="nav__link" href="#contacts_nav">Contacts</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="intro">
+        <div class="container">
+            <a name="home_nav"></a>
+            <h1 class="intro_tittle">professional</h1>
+        <div class="tittle2_arrow">
+            <h2 class="intro_tittle2">car service</h2>
+            <img src="{% static "images/Arrow.svg" %}" alt="arrow" class="arrow">
+        </div>
+        
+        <div class="title3_mechanik">
+            <h3 class="intro_title3">Welcome to our professional car service. Our company offers a wide range of services, ensuring comprehensive care for your car.</h3>
+            <img src="{% static "images/mechanik.svg" %}" alt="mechanik" class="mechanik">
+        </div>
+
+            <a class="btn" href="#servicesnav">View services</a>
+        </div>
+    </div>
+
+    <div class="container_2">
+        <a name="services_nav"></a>
+        <h1 class="services">services</h1>
+    
+        <div class="kartki1">
+            <div class="kartka_1">
+                <img src="{% static "images/kartka_1.svg" %}" alt="kartka_1" class="img_kartka1">
+            
+                <h1 class="kartka_1_text">Repair and Maintenance Services</h1>
+                <p class="kartka_1_text2">Trust our experienced mechanics who are ready to meet any challenges related to the repair ...</p>
+
+                <a class="contactus_1" href="#modal">Contact Us</a>
+            </div>
+
+            <div class="kartka_2">
+                <img src="{% static "images/kartka_2.svg" %}" alt="kartka_2" class="img_kartka2">
+            
+                <h1 class="kartka_2_text">Tire Replacement and Wheel Alignments</h1>
+                <p class="kartka_2_text2">We offer professional advice on tire selection and precise wheel alignments...</p>
+
+                <a class="contactus_2" href="#modal">Contact Us</a>
+            </div>
+
+            <div class="kartka_3">
+                <img src="{% static "images/kartka_3.svg" %}" alt="kartka_3" class="img_kartka3">
+            
+                <h1 class="kartka_3_text">Computer Diagnostics</h1>
+                <p class="kartka_3_text2">We have state-of-the-art computer diagnostic equipment... </p>
+
+                <a class="contactus_3" href="#modal">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="kartki2">
+            <div class="kartka_4">
+                <img src="{% static "images/kartka_4.svg" %}" alt="kartka_4" class="img_kartka4">
+            
+                <h1 class="kartka_4_text">Air Conditioning Service:</h1>
+                <p class="kartka_4_text2">Our air conditioning service offers comprehensive checks, refills, and repairs of air conditioning systems... </p>
+
+                <a class="contactus_4" href="#modal">Contact Us</a>
+            </div>
+
+            <div class="kartka_5">
+                <img src="{% static "images/kartka_5.svg" %}" alt="kartka_5" class="img_kartka5">
+            
+                <h1 class="kartka_5_text">Technical Inspections:</h1>
+                <p class="kartka_5_text2">Plan your vehicle's technical inspection at our service to avoid unpleasant...</p>
+
+                <a class="contactus_5" href="#modal">Contact Us</a>
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="tire2">
+        <img src="{% static "images/tire_2.svg" %}" alt="tire_2" class="tire2">
+    </div>
+
+    <div class="container_3">
+        <a name="reviews_nav"></a>
+        <h1 class="reviews">reviews</h1>
+    
+        <div class="reviews_kartki">
+            <div class="reviews_kartki1">
+                <img src="{% static "images/face_1.svg" %}" alt="face1" class="face1">
+                <h1 class="name1">John D.</h1>
+                <img src="{% static "images/five_stars.svg" %}" alt="stars" class="stars">
+                <p class="rev_tekst">Outstanding service!!! The team at this auto repair shop is truly top notch. They identified and fixed the problem quickly.</p>
+            </div>
+    
+            <div class="reviews_kartki2">
+                <img src="{% static "images/face_2.svg" %}" alt="face2" class="face2">
+                <h1 class="name2">Emily W.</h1>
+                <img src="{% static "images/five_stars.svg" alt="stars" %}" class="stars2">
+                <p class="rev_tekst2">First class air conditioning service! My car's A/C was blowing warm air and the team of experts diagnosed and fixed the problem.</p>
+            </div>
+    
+            <div class="reviews_kartki3">
+                <img src="{% static "images/face_3.svg" %}" alt="face3" class="face3">
+                <h1 class="name3">David S.</h1>
+                <img src="{% static "images/five_stars.svg" %}" alt="stars" class="stars3">
+                <p class="rev_tekst3">Five star experience! Brought my car in for a routine inspection and the service was prompt.</p>
+            </div>
+    
+        </div>
+    </div>
+
+</body>
+    
+
+
+
+   
